@@ -117,6 +117,12 @@ public class SampleSauceTest implements SauceOnDemandSessionIdProvider {
     public static LinkedList browsersStrings() {
         LinkedList browsers = new LinkedList();
         
+        browsers.add(new String[]{"iOS", "iPhone Simulator", "9.2", "https://appium.s3.amazonaws.com/TestApp7.1.app.zip"});
+        browsers.add(new String[]{"iOS", "iPhone Simulator", "9.1", "https://appium.s3.amazonaws.com/TestApp7.1.app.zip"});
+        browsers.add(new String[]{"iOS", "iPhone Simulator", "9.0", "https://appium.s3.amazonaws.com/TestApp7.1.app.zip"});
+        browsers.add(new String[]{"iOS", "iPhone Simulator", "8.4", "https://appium.s3.amazonaws.com/TestApp7.1.app.zip"});
+        browsers.add(new String[]{"iOS", "iPhone Simulator", "8.3", "https://appium.s3.amazonaws.com/TestApp7.1.app.zip"});
+        browsers.add(new String[]{"iOS", "iPhone Simulator", "8.1", "https://appium.s3.amazonaws.com/TestApp7.1.app.zip"});
         browsers.add(new String[]{"iOS", "iPhone Simulator", "7.1", "https://appium.s3.amazonaws.com/TestApp7.1.app.zip"});
 
         return browsers;
